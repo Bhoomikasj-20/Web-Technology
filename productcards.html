@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mainContainer{
+            height:100vh;
+            width:100%;
+            background: linear-gradient(to right, #bfe9ff, #ff6e7f); 
+            display:flex;
+            flex-wrap: wrap;
+            align-items:center;
+            justify-content:space-evenly;
+        }
+        .cards{
+            height: 350px;
+            width: 250px;
+            border: 3px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+
+        }
+        .cards img{
+            height:200px;
+            width:200px;
+            
+            
+        }
+        .p{
+            text-align: center;
+            
+        }
+        .button{
+            height: 30px;
+            width: 150px;
+            border-radius: 30px;
+            border: none;
+            background-color:rgb(234, 83, 178);
+            color:white;
+        }
+        .cards button:hover{
+            background-color:darkblue;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color: rgb(234, 83, 178);">Product Cards</h1>
+     <section class="mainContainer">
+        
+        <article class="cards">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqatUKnUS6_oMjKYcQ8C2hko67kB-1r5rxkgN5yWjoRaiP-_JFiy_IbG4&s=10" alt="">
+            <h3 style="text-align: center;color:rgb(4, 0, 2);">SHE GLAM</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, sit?</p>
+            <button class="button">add to cart</button>
+        </article>
+        <article class="cards">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqatUKnUS6_oMjKYcQ8C2hko67kB-1r5rxkgN5yWjoRaiP-_JFiy_IbG4&s=10" alt="">
+            <h3 style="text-align: center;color:rgb(17, 0, 11);">SHE GLAM</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, sit?</p>
+            <button class="button">add to cart</button>
+        </article>
+        <article class="cards">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqatUKnUS6_oMjKYcQ8C2hko67kB-1r5rxkgN5yWjoRaiP-_JFiy_IbG4&s=10" alt="">
+            <h3 style="text-align: center;color:rgb(10, 0, 7);">SHE GLAM</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, sit?</p>
+            <button class="button">add to cart</button>
+        </article>
+    </section>
+</body>
+</html>

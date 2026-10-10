@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #navbarContainer{
+            height: 60px;
+            width: 100%;
+            background-color: black;
+            display: flex;
+        }
+        .logo{
+            height: 60px;
+            flex-basis:15%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .logo img{
+            height: 65px;
+            width: 65px;
+            border-radius: 15px;
+        }
+        .menu{
+            height: 55px;
+            flex-basis: 85%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .menu a{
+            text-decoration: none;
+            color: goldenrod;
+            font-size: large;
+        }
+        a button{
+            height: 25px;
+            width: 80px;
+            border-radius: 25px;
+            border: none;
+            background-color: goldenrod;
+            color: black;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbarContainer">
+        <aside class="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK-pnzcjeywZ3PeTzziv-rqnFbeRKUi_YZioo3feq3Nw&s=10">
+
+        </aside>
+        <aside class="menu">
+            <a href="">Home Page</a>
+            <a href="">About Us</a>
+            <a href="">Contact Us</a>
+            <a href="">Profile</a>
+            <a href=""><button>Login</button></a>
+            <a href=""><button>Signup</button></a>
+        </aside>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .logo{
+            height: 60px;
+            flex-basis:15%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .form{
+           
+            color:goldenrod;
+            display:flex;
+            align-content: center;
+            justify-content: center;
+            
+        }
+        .button{
+            color:goldenrod;
+            background-color: black;
+        }
+        .button:hover{
+            background-color: goldenrod;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img id="logo" src="https://static.vecteezy.com/system/resources/thumbnails/024/131/476/small_2x/yves-saint-laurent-brand-logo-brown-symbol-clothes-design-icon-abstract-illustration-with-black-background-free-vector.jpg" alt="YSL Logo"  height="400px" width="400px" >
+    </div>
+    <br><br>
+    <br>
+    <br>
+    <form class="form">
+        <fieldset>
+            <legend>REGISTER</legend>
+            <label for="user">username:</label>
+            <input type="text" id="user" name="username"
+            value="" placeholder="enter username"  required>
+            <br><br>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="password"
+            placeholder="enter password" required>
+            <br><br>
+            <label for="pwd">Confirm Password:</label>
+            <input type="password" id="pwd" name="password"
+            placeholder="enter password" required>
+            <br><br>
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label for="ph number">Phone number</label>
+            <input type="tel" minlength="10" maxlength="10" id="ph number">
+            <br><br>
+            <label for="age">age:</label>
+            <input type="number" min="18" max="25" placeholder="enter age">
+            <br><br>
+            <label for="gender">select gender</label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">female
+            <input type="radio" name="gender" value="others">others
+            <br><br>
+            <label for="Country">select Country</label>
+            <select name="" id="">
+                <option value="USA"></option>
+                <option value="UK"></option>
+                <option value="INDIA"></option>
+                <option value="SOUTH KOREA"></option>
+            </select>
+            <br><br>
+            <label for="address">enter address</label>
+            <textarea name="address" rows="5" cols="12"></textarea>
+            <br><br>
+            <label for="dob">dob</label>
+            <input type="datetime-local">
+
+            <button class="button" type="submit">submit</button> 
+            <button class="button" type="reset">cancel</button>
+    
+        </fieldset>
+    </form>
+</body>
+</html>
